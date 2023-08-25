@@ -21,7 +21,9 @@ const AboutPage = () => {
             Pellentesque pulvinar posuere.
           </p> */}
           <p>
-            {/* Aenean vitae ornare orci, eu feugiat mauris. Nulla sodales odio leo, sed tempor ex ultrices vitae. Nam viverra libero eu massa sollicitudin, vel tempor libero sodales. Mauris vitae malesuada dui. */}
+            Aenean vitae ornare orci, eu feugiat mauris. Nulla sodales odio leo,
+            sed tempor ex ultrices vitae. Nam viverra libero eu massa
+            sollicitudin, vel tempor libero sodales. Mauris vitae malesuada dui.
           </p>
         </article>
       </Wrapper>
