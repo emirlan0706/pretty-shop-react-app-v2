@@ -14,12 +14,12 @@ const AboutPage = () => {
             {/* <h2>Our Story</h2> */}
             <div className="underline"></div>
           </div>
-          {/* <p>
+          <p>
             Quisque et risus volutpat ligula ullamcorper tincidunt ac nec enim.
             Morbi tempor luctus varius. Vestibulum viverra mattis dolor nec
             condimentum. Ut tristique enim nec justo efficitur pharetra.
             Pellentesque pulvinar posuere.
-          </p> */}
+          </p>
           <p>
             Aenean vitae ornare orci, eu feugiat mauris. Nulla sodales odio leo,
             sed tempor ex ultrices vitae. Nam viverra libero eu massa
