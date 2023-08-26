@@ -1,33 +1,32 @@
-import React from 'react';
-import styled from 'styled-components';
-import { useCartContext } from '../context/cart_context';
-import { Link } from 'react-router-dom';
-import { PageIntro, CartContent } from '../components'
+import React from "react";
+import styled from "styled-components";
+import { useCartContext } from "../context/cart_context";
+import { Link } from "react-router-dom";
+import { PageIntro, CartContent } from "../components";
 
 const CartPage = () => {
-  const {cart} = useCartContext();
-  if(cart.length < 1) {
+  const { cart } = useCartContext();
+  if (cart.length < 1) {
     return (
-      <Wrapper className='page-100 content'>
+      <Wrapper className="page-100 content">
         <div className="empty">
           <h2>Your cart is empty</h2>
-          <Link to='/products' className='btn'>
-            fill it
+          <Link to="/products" className="btn">
+            {/* fill it */}
           </Link>
         </div>
       </Wrapper>
-    )
+    );
   }
   return (
     <main>
-      <PageIntro title='cart' />
-      <Wrapper className='page'>
+      <PageIntro title="cart" />
+      <Wrapper className="page">
         <CartContent />
-      </Wrapper> 
+      </Wrapper>
     </main>
-    
   );
-}
+};
 
 const Wrapper = styled.main`
   .empty {
@@ -37,6 +36,6 @@ const Wrapper = styled.main`
       text-transform: none;
     }
   }
-`
+`;
 
 export default CartPage;
