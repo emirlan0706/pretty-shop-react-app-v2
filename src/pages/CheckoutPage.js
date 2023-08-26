@@ -1,7 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { PageIntro } from '../components';
-
+import React from "react";
+import styled from "styled-components";
+import { PageIntro } from "../components";
 
 const CheckoutPage = () => {
   return (
@@ -9,13 +8,13 @@ const CheckoutPage = () => {
     //     <h4>Checkout Page</h4>
     // </div>
     <main>
-      <PageIntro title='Checkout' />
-      <Wrapper className='page'>
+      <PageIntro title="Checkout" />
+      <Wrapper className="page">
         <div className="section-center content"></div>
-      </Wrapper> 
+      </Wrapper>
     </main>
   );
-}
+};
 
 const Wrapper = styled.main`
   min-height: 60vh;
@@ -26,7 +25,6 @@ const Wrapper = styled.main`
       text-transform: none;
     }
   }
-`
+`;
 
 export default CheckoutPage;
-
