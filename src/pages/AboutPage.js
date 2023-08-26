@@ -12,7 +12,7 @@ const AboutPage = () => {
         <article>
           <div className="title">
             <h2>Our Story</h2>
-            {/* fdglsgs */}
+
             <div className="underline"></div>
           </div>
           <p>
